@@ -28,8 +28,32 @@ buttonPlay.addEventListener('click', function(){
 
 const emailList = ['gioacchinoliberati@gmail.com', 'massimosuffragio@live.com', 'antoniabellachioma@hotmail.it'];
 
-const inputElement = document.getElementById('email');
 const checkButton = document.getElementById('email-check');
+
+
+checkButton.addEventListener('click', function(){
+    const inputElement = document.getElementById('email');
+    let access;
+
+    for(let i = 0; i < emailList.length; i++){
+
+        if(inputElement.value !== emailList[i]){
+            access = false;
+        } else{
+            access = true;
+        }
+
+        if(access == true){
+        console.log('Hai effettuato l\'accesso.')
+        } else {
+        console.log('Non ti è permesso accedere.')
+        }
+    }
+
+    
+    
+
+});
 
 
 
