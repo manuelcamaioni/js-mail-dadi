@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 1rem;
+    height: 100vh;
+    background: linear-gradient(110deg, #5312bb 60%, #a229f3 60%);
+}
+
 #dice-game-button{
-    background-color: rgba(18, 93, 233, .5);
+    background-color: rgba(18, 93, 233, .7);
     color: white;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
@@ -19,7 +25,19 @@
 }
 
 #dice-game-button:hover{
-    background-color: rgb(18, 93, 233);
+    background-color: rgb(4, 27, 70);
+}
+
+.style-title{
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 1rem 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(204, 204, 204, .6);
 }
 
 
