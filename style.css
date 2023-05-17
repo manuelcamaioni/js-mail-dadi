@@ -3,3 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#dice-game-button{
+    background-color: rgba(18, 93, 233, .5);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    font-size: 3rem;
+    transition: background-color .5s;
+}
+
+#dice-game-button:hover{
+    background-color: rgb(18, 93, 233);
+}
+
+
