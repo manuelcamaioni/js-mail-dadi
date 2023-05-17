@@ -1,6 +1,8 @@
 //* ESERCIZIO 1
 
-console.log(`Premi il pulsante per iniziare a giocare.`);
+
+console.log(`Premi il pulsante 'Gioca' per iniziare una partita.`);
+console.log(`Premi il pulsante 'Controlla Email' per controllare se l'indirizzo di posta elettronica è valido.`);
 
 const buttonPlay = document.getElementById('dice-game-button');
 
