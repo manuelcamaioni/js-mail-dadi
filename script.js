@@ -1,3 +1,5 @@
+//* ESERCIZIO 1
+
 console.log(`Premi il pulsante per iniziare a giocare.`);
 
 const buttonPlay = document.getElementById('dice-game-button');
@@ -16,3 +18,7 @@ buttonPlay.addEventListener('click', function(){
         console.log(`Hai perso...`);
     }
 });
+
+
+//* ESERCIZIO 2
+
