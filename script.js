@@ -42,14 +42,13 @@ checkButton.addEventListener('click', function(){
         } else{
             access = true;
         }
-
-        if(access == true){
+    }
+    
+    if(access == true){
         console.log('Hai effettuato l\'accesso.')
         } else {
         console.log('Non ti è permesso accedere.')
         }
-    }
-
     
     
 
