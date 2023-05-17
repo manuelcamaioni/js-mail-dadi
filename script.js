@@ -22,3 +22,14 @@ buttonPlay.addEventListener('click', function(){
 
 //* ESERCIZIO 2
 
+//? Creare array con varie mail
+//? Inserire input per controllo della mail inserita
+//? Check button e creare un evento
+
+const emailList = ['gioacchinoliberati@gmail.com', 'massimosuffragio@live.com', 'antoniabellachioma@hotmail.it'];
+
+const inputElement = document.getElementById('email');
+const checkButton = document.getElementById('email-check');
+
+
+
