@@ -33,25 +33,20 @@ const checkButton = document.getElementById('email-check');
 
 checkButton.addEventListener('click', function(){
     const inputElement = document.getElementById('email');
-    let access;
+    let access = false;
 
     for(let i = 0; i < emailList.length; i++){
 
-        if(inputElement.value !== emailList[i]){
-            access = false;
-        } else{
+        if(inputElement.value === emailList[i]){
             access = true;
         }
     }
-    
-    if(access == true){
-        console.log('Hai effettuato l\'accesso.')
-        } else {
-        console.log('Non ti è permesso accedere.')
-        }
-    
-    
 
+    if(access == true){
+        console.log('Hai effettuato l\'accesso.');
+        } else {
+        console.log('Non ti è permesso accedere.');
+    }
 });
 
 
